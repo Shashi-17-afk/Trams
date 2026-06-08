@@ -1,3 +1,15 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 /*navbar*/
 .navbar{
   display: flex;
@@ -403,6 +415,12 @@
   margin-top: 80px;
   background: #dbe9da;
   padding: 50px 60px 25px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
 .footer-top{
@@ -453,10 +471,16 @@
 }
 
 .footer-links{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 40px;
+}
+
+.footer-links > div{
+  flex: 1 1 220px;
+  min-width: 180px;
+  max-width: 280px;
 }
 
 .footer-links h4{
@@ -593,6 +617,19 @@ button,
   .footer-links{
     gap: 25px;
   }
+
+  .footer{
+    padding: 50px 40px 25px;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .footer-links{
+    max-width: 1080px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+  }
 }
 
 
@@ -707,8 +744,9 @@ button,
   .service-row span{
     display: none;
   }
+}
 
- @media (max-width:768px){
+@media (max-width:768px){
 
   .testimonial-title h2{
     font-size: 40px;
@@ -762,6 +800,7 @@ button,
   .footer{
     width: 100%;
     padding: 40px 20px;
+    min-width: 0;
   }
 
   .footer-top h2{
