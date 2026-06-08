@@ -8,7 +8,7 @@ const Hero = () => {
         <br />
         doers were changing
         <br />
-        the status uo with
+        the status Quo with
       </h1>
 
       <p className="hero-description">
