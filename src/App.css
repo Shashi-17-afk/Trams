@@ -330,6 +330,10 @@ body {
   line-height: 1;
 }
 
+.quote-end{
+  position: absolute;
+  bottom: -35px;
+  right: 25px;
 
   font-size: 85px;
   color: #c2c7c2;
@@ -784,6 +788,11 @@ button,
     top: 5px;
   }
 
+  .quote-end{
+    font-size: 55px;
+    right: 10px;
+    bottom: -20px;
+  }
 }
 
   /* FOOTER */
