@@ -35,8 +35,6 @@ const Testimonials = () => {
             <br />
             to be easy to use and reliable.
           </p>
-
-          <span className="quote-end">❞</span>
         </div>
 
         <div className="right-avatars">
