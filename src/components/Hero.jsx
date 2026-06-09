@@ -33,9 +33,9 @@ const Hero = () => {
       </h1>
 
       <p className="hero-description">
-        We are a team of strategists, designers communicators, researchers. Togeather,
+        We are a team of strategists, designers communicators, researchers. Together,
         <br />
-        we belive that progress only hghappens when you refuse to play things safe.
+        we believe that progress only happens when you refuse to play things safe.
       </p>
 
       <div className="hero-avatars">
