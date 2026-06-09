@@ -1,13 +1,11 @@
-import React from "react";
-
 const Testimonials = () => {
   return (
     <section className="testimonials">
       <div className="testimonial-title">
         <h2>
-          What our customer
+          <span className="hl hl-green">What</span> our customer
           <br />
-          says About Us
+          says <span className="ul">About Us</span>
         </h2>
       </div>
 
@@ -20,21 +18,23 @@ const Testimonials = () => {
         </div>
 
         <div className="testimonial-card">
-          <span className="quote-start">❝</span>
+          <span className="quote-start">&#10078;</span>
 
           <p>
-            Elementum delivered the site within the timeline
+            Elementum delivered the site with inthe timeline
             <br />
-            as they requested. In the end, the client found a 50%
+            as they requested. Inthe end, the client found a 50%
             <br />
-            increase in traffic within days since its launch.
+            increase in traffic with in days since its launch. They
             <br />
-            They also had an impressive ability to use technologies
+            also had an impressive ability to use technologies that
             <br />
-            that the company hasn't used, which have also proved
+            the company hasnt used, which have also proved to
             <br />
-            to be easy to use and reliable.
+            be easy to use and reliable
           </p>
+
+          <span className="quote-end">&#10078;</span>
         </div>
 
         <div className="right-avatars">

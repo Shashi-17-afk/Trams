@@ -1,4 +1,5 @@
 import "./App.css";
+import flowCurve from "./assets/flow-curve.svg";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About"
@@ -12,8 +13,11 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <About />
-      <Progress />
+      <div className="flow-section">
+        <img className="flow-curve" src={flowCurve} alt="" aria-hidden="true" />
+        <About />
+        <Progress />
+      </div>
       <Services />
       <Testimonials />
       <Footer />
